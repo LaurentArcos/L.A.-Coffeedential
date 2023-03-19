@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  color: white
 }
 
 .header-title {
@@ -46,5 +47,15 @@ body {
 
   &-Links {
     margin: 2.5rem 3rem;
+
+    &-active {
+      margin: 2.5rem 3rem;
+      color: vars.$colorYellow;
+    }
   }
+
+  &-Links:hover {
+    color: vars.$colorDarkGrey;
+  }
+
 }

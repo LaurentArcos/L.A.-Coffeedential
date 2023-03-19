@@ -10,16 +10,16 @@ const Header = () => {
       </h1>
 
       <ul className="NavBar">
-      <NavLink to="/" className="NavBar-Links">
+      <NavLink to="/" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
         <li>Accueil</li>
       </NavLink>
-      <NavLink to="/about" className="NavBar-Links">
+      <NavLink to="/about" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
         <li>A propos</li>
       </NavLink>
-      <NavLink to="/products" className="NavBar-Links">
+      <NavLink to="/products" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
         <li>Nos Produits</li>
       </NavLink>
-      <NavLink to="/store" className="NavBar-Links">
+      <NavLink to="/store" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
         <li>Infos pratiques</li>
       </NavLink>
     </ul>
