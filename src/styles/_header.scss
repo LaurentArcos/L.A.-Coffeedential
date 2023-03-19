@@ -1,24 +1,35 @@
+@use 'vars';
+
 body {
-  font-family: 'Raleway';
+  font-family: 'Lora';
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .header-title {
   margin-top: 5rem;
   margin-bottom: 5rem;
   text-transform: uppercase;
-  line-height: 1;
   font-family: 'Raleway';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 
   &-main {
-    display: block;
-    font-size: 2rem;
+    margin: 1rem;
+    font-size: 5rem;
     font-weight: 800;
+    color: vars.$colorYellow;
   }
   
   &-slogan {
-    font-size: 5rem;
-    font-weight: 100;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: vars.$colorWhite;
   }
 }
 
