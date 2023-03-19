@@ -35,3 +35,16 @@ body {
   }
 }
 
+.NavBar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(47, 23, 15, 0.9);
+  font-family: 'Raleway';
+  font-weight: 800;
+  color: vars.$colorLightGrey;
+  font-size: 1.2rem;
+
+  &-Links {
+    margin: 2.5rem 3rem;
+  }
+}
