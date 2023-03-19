@@ -23,7 +23,9 @@ body {
     margin: 1rem;
     font-size: 5rem;
     font-weight: 800;
-    color: vars.$colorYellow;
+    background-image: linear-gradient(90deg, vars.$colorYellow 0%, rgb(255, 234, 205) 35%, vars.$colorYellow 70%);
+    background-clip: text;
+	  -webkit-text-fill-color: transparent;
   }
   
   &-slogan {
