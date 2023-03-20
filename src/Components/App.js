@@ -13,17 +13,19 @@ import '../styles/styles.scss'
 
 const App = () => {
   return (
-    <BrowserRouter>
-    <Header/>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/products" element={<Products/>}/>
-      <Route path="/store" element={<Store/>}/>
-      <Route path="*" element={<NotFound/>} />
-    </Routes>
-    <Footer/>
-    </BrowserRouter>
+    <div className='app'>  
+      <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/products" element={<Products/>}/>
+        <Route path="/store" element={<Store/>}/>
+        <Route path="*" element={<NotFound/>} />
+      </Routes>
+      <Footer/>
+      </BrowserRouter>
+    </div>
   )
 }
 
