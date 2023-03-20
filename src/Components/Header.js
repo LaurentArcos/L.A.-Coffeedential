@@ -9,17 +9,17 @@ const Header = () => {
         <span className="header-title-slogan">Your new favorite coffee place</span>
       </h1>
 
-      <ul className="NavBar">
-      <NavLink to="/" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
+      <ul className="navbar">
+      <NavLink to="/" className={(nav) => (nav.isActive ? "navbar-links-active" : "navbar-links")}>
         <li>Accueil</li>
       </NavLink>
-      <NavLink to="/about" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
+      <NavLink to="/about" className={(nav) => (nav.isActive ? "navbar-links-active" : "navbar-links")}>
         <li>A propos</li>
       </NavLink>
-      <NavLink to="/products" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
+      <NavLink to="/products" className={(nav) => (nav.isActive ? "navbar-links-active" : "navbar-links")}>
         <li>Nos Produits</li>
       </NavLink>
-      <NavLink to="/store" className={(nav) => (nav.isActive ? "NavBar-Links-active" : "NavBar-Links")}>
+      <NavLink to="/store" className={(nav) => (nav.isActive ? "navbar-links-active" : "navbar-links")}>
         <li>Infos pratiques</li>
       </NavLink>
     </ul>

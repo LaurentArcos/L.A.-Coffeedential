@@ -1,0 +1,8 @@
+@use 'vars';
+
+.footer {
+  background-color: vars.$colorBrown;
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+}
