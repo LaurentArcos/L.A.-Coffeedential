@@ -10,16 +10,19 @@ const Home = () => {
       <div className='homepage-top'>
         <img className='homepage-top-image' src={barista} alt="Barista"/>
         <div className='homepage-top-text'>
-          <h2 className='homepage-top-text-h2'>
-            <span className='homepage-top-text-h2-span1'>Fresh Coffee</span>
-            <span className='homepage-top-text-h2-span2'>Worth Drinking</span>
-          </h2>
-          <p className='homepage-top-text-p'>Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-          </p>
+          <div className='homepage-top-text-group'>
+            <h2 className='homepage-top-text-h2'>
+              <span className='homepage-top-text-h2-span1'>Fresh Coffee</span>
+              <span className='homepage-top-text-h2-span2'>Worth<br/>Drinking</span>
+            </h2>
+            <p className='homepage-top-text-p'>Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            </p>
+          
           <div>
           <NavLink to="/store">
-          <p className='homepage-top-text-link'>Passez nous voir !</p>
+          <p className='homepage-top-text-link'>Passez Nous Voir !</p>
           </NavLink>
+          </div>
           </div>
        </div>
       </div>

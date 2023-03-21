@@ -3,35 +3,76 @@
 .homepage { 
 
   margin: 5rem 0;
+  font-family: 'Raleway';
 
       &-top {
 
+        position: static;
+
             &-image {
-              border-radius: 1%;
-              width: 42%;
+              position: relative;
+              left: 35%;
+              border-radius: 0.8%;
+              width: 44%;
+
             }
 
             &-text {
-              background-color: blue;
+              color: black;
+              justify-content: center;
+              position: absolute;
+              left: 20%;
+              top: 60%;
+
+                  &-group {
+                    background-color: rgba(vars.$colorWhite, 0.85);
+                    max-width: 33%;
+                    border-radius: 0.8%;
+                    padding: 3rem 3rem 4rem 3rem;
+                    text-align: center;
+                    line-height: 1.5rem;
+                  }
 
                   &-h2 {
-
+                    display: flex;
+                    flex-direction: column;
+                    text-transform: uppercase;
+                    
                         &-span1 {
-                          color: antiquewhite;
+                          font-size: 1.1rem;
+                          font-weight: 800;
+                          
                         }
 
                         &-span2 {
-                          color: antiquewhite;
+                          padding-bottom: 1.5rem;
+                          font-size: 2.7rem;
+                          font-weight: 100;
+                          line-height: 3.5rem;
                         }
-
                   }
 
                   &-p {
-                    background-color: red;
+                    font-size: 1rem;
+                    font-family: 'Lora';
+                    letter-spacing: 0.03rem;  
                   }
 
+
                   &-link {
-                    background-color: yellow;
+                    background-color: vars.$colorYellow;
+                    color: vars.$colorWhite;
+                    border-radius: 0.3rem;
+                    max-width: 50%;
+                    font-size: 0.8rem;
+                    padding: 1.5rem;
+                    font-weight: bold;  
+                    margin-top: 2rem;
+                    position: absolute;
+                    left: 11.5%;
+                    top: 81%;
+                    font-family: 'lora';
+                    letter-spacing: 0.02rem;        
                   }
 
 
@@ -48,7 +89,6 @@
         padding-bottom: 5rem;
         background-color: rgba(vars.$colorYellow, 0.85);
         color: black;
-        font-family: 'Raleway';
 
             &-inner {
               max-width: 40%;
@@ -95,12 +135,16 @@
             &-p1 {
               padding-top: 1rem;
               font-size: 1rem;
+              font-family: 'Lora';
+              letter-spacing: 0.03rem;  
               line-height: 1.5rem;
               text-align: justify;
             }
             &-p2 {
               padding-top: 1rem;
               font-size: 1rem;
+              font-family: 'Lora';
+              letter-spacing: 0.03rem;  
               line-height: 1.5rem;
               text-align: center;
             }

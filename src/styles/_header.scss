@@ -35,10 +35,11 @@
   font-family: 'Raleway';
   font-weight: 800;
   color: rgba(vars.$colorWhite, 0.7);
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
 
   &-links {
-    margin: 2.5rem 3rem;
+    margin: 2.5rem 2rem;
 
     &-active {
       margin: 2.5rem 3rem;
