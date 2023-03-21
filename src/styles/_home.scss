@@ -2,6 +2,8 @@
 
 .homepage { 
 
+  margin: 5rem 0;
+
       &-top {
 
             &-image {
@@ -41,6 +43,7 @@
       &-bottom {
         display: flex;
         justify-content: center;
+        margin-top: 5rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
         background-color: rgba(vars.$colorYellow, 0.85);
