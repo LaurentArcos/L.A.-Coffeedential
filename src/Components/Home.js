@@ -26,11 +26,15 @@ const Home = () => {
     
 
       <div className='homepage-bottom'>
-        <h2 className='homepage-bottom-h2'>
-          <span className='homepage-bottom-h2-span1'>Our Promise</span>
-          <span className='homepage-bottom-h2-span2'>To You</span>
-        </h2>
-        <p className='homepage-bottom-p'>When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+        <div className='homepage-bottom-inner'>
+          <h2 className='homepage-bottom-h2'>
+            <span className='homepage-bottom-h2-span1'>Ce que nous faisons</span>
+            <span className='homepage-bottom-h2-span2'>POUR VOUS</span>
+          </h2>
+          <p className='homepage-bottom-p'>
+          Que vous veniez chez nous pour démarrer votre journée ou pour une pause gourmande, nous vous garantissons un service chaleureux et amical, dans une atmosphère accueillante et bienveillante, et par dessus tout, d'excellents produits préparés avec des ingrédients de la plus grande qualité. Si toutefois vous n'êtes pas satisfait.e.s, faîtes-le nous savoir et nous mettrons tout en oeuvre pour continuer à nous améliorer !
+          </p>
+        </div>
       </div>
 
     </div>

@@ -39,21 +39,60 @@
 
 
       &-bottom {
+        display: flex;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: rgba(vars.$colorYellow, 0.85);
+        color: black;
+        font-family: 'Raleway';
+
+            &-inner {
+              max-width: 40%;
+              position: relative;
+              display: flex;
+              text-align: center;
+              flex-direction: column;
+              padding: 3rem;
+              margin: 0.5rem;
+              background-color: rgba(vars.$colorWhite, 0.85);
+            }
+
+            &-inner:before {
+                border-radius: 0.5rem;
+                content: '';
+                position: absolute;
+                top: -0.5rem;
+                bottom: -0.5rem;
+                left: -0.5rem;
+                right: -0.5rem;
+                border: 0.25rem solid rgba(vars.$colorWhite, 0.85);
+            }
 
             &-h2 {
-              
+              display: flex;
+              flex-direction: column;
+              text-transform: uppercase;
+                            
                   &-span1 {
-                    color: antiquewhite;
+                    padding-bottom: 0.5rem;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    
                   }
 
                   &-span2 {
-                    color: antiquewhite;
+                    padding-bottom: 1rem;
+                    font-size: 2.5rem;
+                    font-weight: 100;
                   }
 
             }
 
             &-p {
-              color: beige;
+              padding-top: 1rem;
+              font-size: 1rem;
+              line-height: 1.5rem;
             }
 
       }

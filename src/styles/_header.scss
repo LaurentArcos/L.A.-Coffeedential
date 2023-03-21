@@ -1,13 +1,5 @@
 @use 'vars';
 
-body {
-  font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/bg.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  color: white
-}
 
 .header-title {
   margin-top: 5rem;
@@ -42,7 +34,7 @@ body {
   background-color: vars.$colorBrown;
   font-family: 'Raleway';
   font-weight: 800;
-  color: vars.$colorLightGrey;
+  color: rgba(vars.$colorWhite, 0.7);
   font-size: 1.2rem;
 
   &-links {
@@ -55,7 +47,7 @@ body {
   }
 
   &-links:hover {
-    color: vars.$colorDarkGrey;
+    color: rgba(vars.$colorWhite, 0.4);
   }
 
 }
