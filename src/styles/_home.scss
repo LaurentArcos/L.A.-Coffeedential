@@ -1,1 +1,61 @@
 @use 'vars';
+
+.homepage { 
+
+      &-top {
+
+            &-image {
+              border-radius: 1%;
+              width: 42%;
+            }
+
+            &-text {
+              background-color: blue;
+
+                  &-h2 {
+
+                        &-span1 {
+                          color: antiquewhite;
+                        }
+
+                        &-span2 {
+                          color: antiquewhite;
+                        }
+
+                  }
+
+                  &-p {
+                    background-color: red;
+                  }
+
+                  &-link {
+                    background-color: yellow;
+                  }
+
+
+            }
+
+      }
+
+
+      &-bottom {
+
+            &-h2 {
+              
+                  &-span1 {
+                    color: antiquewhite;
+                  }
+
+                  &-span2 {
+                    color: antiquewhite;
+                  }
+
+            }
+
+            &-p {
+              color: beige;
+            }
+
+      }
+
+}
