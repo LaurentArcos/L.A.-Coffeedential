@@ -1,0 +1,121 @@
+@use 'vars';
+
+.products {
+
+  margin: 5rem 0rem;
+  font-family: 'Raleway';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-cafe {
+
+    &-titles {
+
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      color: black;
+      justify-content: center;
+      background-color: rgba(vars.$colorWhite, 0.85);
+      max-width: 40%;
+      border-radius: vars.$borderRadius;
+      padding: 3rem;
+      text-align: left;
+      line-height: 1.5rem;
+      position: relative;
+      top: 2.5%;
+      left: 15%;
+
+      &-span1 {
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+
+      &-span2 {
+        font-size: 2.7rem;
+        font-weight: 100;
+        line-height: 3.5rem;
+      }
+
+    }
+
+    &-image {
+      width: 47%;
+    }
+
+    &-p {
+      font-size: 1rem;
+      font-family: 'Lora';
+      letter-spacing: 0.03rem;
+      line-height: 1.5rem;
+      background-color: rgba(vars.$colorWhite, 0.85);
+      max-width: 50%;
+      border-radius: vars.$borderRadius;
+      padding: 3rem;
+      text-align: left;
+      color: black;
+      position: relative;
+      bottom: 2.5%;
+      right: 5%;
+    }
+
+  }
+
+  &-patisserie {
+
+    &-titles {
+
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      color: black;
+      justify-content: center;
+      background-color: rgba(vars.$colorWhite, 0.85);
+      max-width: 30%;
+      border-radius: vars.$borderRadius;
+      padding: 3rem;
+      text-align: left;
+      line-height: 1.5rem;
+      position: relative;
+      top: 2.5%;
+      right: 17%;
+
+      &-span1 {
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+
+      &-span2 {
+        font-size: 2.7rem;
+        font-weight: 100;
+        line-height: 3.5rem;
+      }
+
+    }
+
+    &-image {
+      width: 47%;
+      border-radius: vars.$borderRadius;
+
+    }
+
+    &-p {
+      font-size: 1rem;
+      font-family: 'Lora';
+      letter-spacing: 0.03rem;
+      background-color: rgba(vars.$colorWhite, 0.85);
+      max-width: 50%;
+      border-radius: vars.$borderRadius;
+      padding: 3rem;
+      text-align: left;
+      color: black;
+      line-height: 1.5rem;
+      position: relative;
+      bottom: 2.5%;
+      left: 5%;
+    }
+
+  }
+
+}

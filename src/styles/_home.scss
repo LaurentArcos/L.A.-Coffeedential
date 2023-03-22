@@ -12,7 +12,7 @@
             &-image {
               position: relative;
               left: 35%;
-              border-radius: 0.8%;
+              border-radius: vars.$borderRadius;
               width: 44%;
 
             }
@@ -27,7 +27,7 @@
                   &-group {
                     background-color: rgba(vars.$colorWhite, 0.85);
                     max-width: 33%;
-                    border-radius: 0.8%;
+                    border-radius: vars.$borderRadius;
                     padding: 3rem 3rem 4rem 3rem;
                     text-align: center;
                     line-height: 1.5rem;
@@ -62,7 +62,7 @@
                   &-link {
                     background-color: vars.$colorYellow;
                     color: vars.$colorWhite;
-                    border-radius: 0.3rem;
+                    border-radius: vars.$borderRadius;
                     max-width: 50%;
                     font-size: 0.8rem;
                     padding: 1.5rem;
@@ -102,7 +102,7 @@
             }
 
             &-inner:before {
-                border-radius: 0.5rem;
+                border-radius: vars.$borderRadius;
                 content: '';
                 position: absolute;
                 top: -0.5rem;

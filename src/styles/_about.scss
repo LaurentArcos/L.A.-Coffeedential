@@ -8,10 +8,9 @@
   flex-direction: column;
   align-items: center;
   
-
-
   &-image {
     width: 60%;
+    border-radius: vars.$borderRadius;
   }
 
   &-text {
@@ -19,7 +18,7 @@
     justify-content: center;
     background-color: rgba(vars.$colorWhite, 0.85);
     max-width: 45%;
-    border-radius: 0.8%;
+    border-radius: vars.$borderRadius;
     padding: 3rem 3rem 4rem 3rem;
     text-align: left;
     line-height: 1.5rem;
@@ -34,7 +33,6 @@
       &-span1 {
         font-size: 1.1rem;
         font-weight: 800;
-        
       }
 
       &-span2 {
@@ -43,7 +41,6 @@
         font-weight: 100;
         line-height: 3.5rem;
       }
-
     }
 
     &-p1 {
@@ -58,12 +55,5 @@
       font-family: 'Lora';
       letter-spacing: 0.03rem;
     }
-
-
-
   }
-
-
-
-
 }
