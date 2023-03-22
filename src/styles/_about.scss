@@ -1,0 +1,69 @@
+@use 'vars';
+
+.about {
+
+  margin-top: 5rem;
+  font-family: 'Raleway';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+
+  &-image {
+    width: 60%;
+  }
+
+  &-text {
+    color: black;
+    justify-content: center;
+    background-color: rgba(vars.$colorWhite, 0.85);
+    max-width: 45%;
+    border-radius: 0.8%;
+    padding: 3rem 3rem 4rem 3rem;
+    text-align: left;
+    line-height: 1.5rem;
+    position: relative;
+    top: -10%;
+
+    &-h2{
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      
+      &-span1 {
+        font-size: 1.1rem;
+        font-weight: 800;
+        
+      }
+
+      &-span2 {
+        padding-bottom: 1.5rem;
+        font-size: 2.7rem;
+        font-weight: 100;
+        line-height: 3.5rem;
+      }
+
+    }
+
+    &-p1 {
+      font-size: 1rem;
+      font-family: 'Lora';
+      letter-spacing: 0.03rem;
+      margin-bottom: 1rem;  
+    }
+
+    &-p2 {
+      font-size: 1rem;
+      font-family: 'Lora';
+      letter-spacing: 0.03rem;
+    }
+
+
+
+  }
+
+
+
+
+}
