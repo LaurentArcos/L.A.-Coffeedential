@@ -25,7 +25,7 @@ const Products = () => {
 
       <img className='products-patisserie-image' src={croissant} alt="croissant"/>
 
-      <p className='products-patisserie-p'>Nos menus saisonniers proposent, d'incroyables pâtisseries et viennoiseries préparées sur place mais également des snacks délicieux et des plats préparés avec soin tous les repas de la journée. Nous achetons autant que possible nos ingrédients chez des producteurs locaux et éco-responsables mais également chez des fournisseurs reconnus et spécialisés.</p>
+      <p className='products-patisserie-p'>Nos menus saisonniers proposent, d'incroyables pâtisseries et viennoiseries préparées sur place mais également des snacks délicieux et des plats préparés avec soin pour tous les repas de la journée. Nous achetons dès que possible nos ingrédients chez des producteurs locaux et éco-responsables mais également chez des fournisseurs reconnus et spécialisés.</p>
 
     </div>
   )
