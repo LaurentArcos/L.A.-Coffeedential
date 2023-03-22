@@ -12,10 +12,10 @@ const Home = () => {
         <div className='homepage-top-text'>
           <div className='homepage-top-text-group'>
             <h2 className='homepage-top-text-h2'>
-              <span className='homepage-top-text-h2-span1'>Fresh Coffee</span>
-              <span className='homepage-top-text-h2-span2'>Worth<br/>Drinking</span>
+              <span className='homepage-top-text-h2-span1'>Le Café</span>
+              <span className='homepage-top-text-h2-span2'>Que vous<br/>méritez</span>
             </h2>
-            <p className='homepage-top-text-p'>Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            <p className='homepage-top-text-p'>Chaque tasse de nos cafés à la préparation artisanale commence par des ingrédients éco-responsables et sélectionnés avec soin. Essayez nos cafés et ils deviendront vite un rendez-vous incontournable de vos morning routines et de vos petits moments de détente et de plaisir - Nous vous le garantissons !
             </p>
           
           <div>
