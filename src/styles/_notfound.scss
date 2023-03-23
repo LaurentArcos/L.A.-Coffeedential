@@ -1,0 +1,63 @@
+@use 'vars';
+
+.notfound {
+  margin-top: 3rem;
+  margin-bottom: -7rem;
+  font-family: 'Raleway';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &-image {
+    width: 50%;
+    border-radius: vars.$borderRadius;
+  }
+
+  &-text {
+    color: black;
+    justify-content: center;
+    background-color: rgba(vars.$colorWhite, 0.85);
+    max-width: 45%;
+    border-radius: vars.$borderRadius;
+    padding: 3rem 3rem 4rem 3rem;
+    text-align: left;
+    line-height: 1.5rem;
+    position: relative;
+    top: -50%;
+
+    &-h2{
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      
+      &-span1 {
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+
+      &-span2 {
+        padding-bottom: 1.5rem;
+        font-size: 2.7rem;
+        font-weight: 100;
+
+      }
+    }
+}
+  &-link {
+    background-color: vars.$colorYellow;
+    color: vars.$colorWhite;
+    border-radius: vars.$borderRadius;
+    max-width: 75%;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;  
+    margin-top: 2rem;
+    position: absolute;
+    left: 17%;
+    top: 60%;
+    
+    letter-spacing: 0.02rem; 
+    line-height: 1.7rem;       
+  }
+
+}
