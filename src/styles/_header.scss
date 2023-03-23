@@ -52,3 +52,39 @@
   }
 
 }
+
+@media (max-width: 1400px) {
+
+  .header-title {
+   
+    &-main {
+      font-size: 1.7rem;
+      font-weight: 800;
+    }
+    
+    &-slogan {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+
+    }
+  }
+  
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.7rem;
+
+  
+    &-links {
+      margin: 0.2rem;
+      padding: 1rem 0;
+  
+      &-active {
+        margin: 0.2rem;
+        padding: 1rem 0;
+      }
+    }
+
+  }
+}
