@@ -1,0 +1,104 @@
+@use 'vars';
+
+.store {
+  margin: 5rem 0;  
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(vars.$colorYellow, 0.85);
+  color: black;
+
+  &-inner {
+    max-width: 60%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 5rem 10rem;
+    margin: 0.5rem;
+    background-color: rgba(vars.$colorWhite, 0.85);
+  }
+
+  &-inner:before {
+      border-radius: vars.$borderRadius;
+      content: '';
+      position: absolute;
+      top: -0.5rem;
+      bottom: -0.5rem;
+      left: -0.5rem;
+      right: -0.5rem;
+      border: 0.25rem solid rgba(vars.$colorWhite, 0.85);
+  }
+
+  &-titles {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    
+    &-span1{
+      font-size: 1.1rem;
+      font-weight: 800;
+      padding-bottom: 0.5rem;
+    }
+    
+    &-span2{
+      font-size: 2.5rem;
+      font-weight: 100;
+      line-height: 3.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  &-horaires {
+    font-style: italic;
+    border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+    padding-bottom: .25rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 70%;
+    font-family: 'Lora';
+    font-size: 1.1rem;
+  }
+
+  &-adresse {
+    font-family: 'Lora';
+    font-style: italic;
+    margin: 2rem 0 1rem 0;
+
+    &-rue{
+      font-weight: bold; 
+      margin-bottom: 0.5rem;
+    }
+
+    &-ville{
+      color: black;
+     
+    }
+
+  }
+
+  &-telephone {
+    font-family: 'Lora';
+    font-style: italic;
+    margin-top: 1rem;
+
+    &-titre{
+      color: black;
+      margin-bottom: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    &-numero{
+      color: black;
+    }
+
+  }
+
+}
