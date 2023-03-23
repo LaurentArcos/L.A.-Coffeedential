@@ -12,22 +12,27 @@ const Store = () => {
     'Dimanche'
   ];
 
+let newDay = new Date();
+let currentDay = newDay.getDay(); 
+
+console.log(typeof currentDay); 
+
   return (
     <div className='store'>
       <div className='store-inner'>
         
-        <h2 class="store-titles">
-          <span class="store-titles-span1">passez nous voir</span>
-          <span class="store-titles-span2">Nous sommes ouverts</span>
+        <h2 className="store-titles">
+          <span className="store-titles-span1">passez nous voir</span>
+          <span className="store-titles-span2">Nous sommes ouverts</span>
         </h2>
 
       {weekDay.map ((day) => {
         return (
-          <div className='store-horaires'> 
-            <span className='store-horaires-jour' key={day}>
+          <div className='store-horaires'>
+            <span className={weekDay.indexOf(day) === (currentDay-1) ? "store-horaires-day" : ""} key={day}>
               {day}  
             </span>
-            <span className='store-horaires-heure'>
+            <span className={weekDay.indexOf(day) === (currentDay-1) ? "store-horaires-heure" : ""} >
               {day === 'Samedi' || day === 'Dimanche' ? ' de 9h00 à 17h' : ' de 7h00 à 20h'}
             </span>
             
