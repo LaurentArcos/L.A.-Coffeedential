@@ -15,9 +15,9 @@ const Store = () => {
 let newDay = new Date();
 let currentDay = newDay.getDay(); 
 
-console.log(typeof currentDay); 
 
   return (
+    
     <div className='store'>
       <div className='store-inner'>
         
