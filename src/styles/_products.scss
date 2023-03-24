@@ -118,3 +118,193 @@
   }
 
 }
+
+
+/**===========================================*/
+/**               Media Queries               */
+/**===========================================*/
+
+
+/* width 0 --> 999*/
+@media screen and (max-width: 699px) {
+
+.products {
+
+  &-cafe {
+
+    &-titles {
+
+      max-width: 85%;
+      padding: 1rem;
+      text-align: left;
+      line-height: 1.5rem;
+      top: 2%;
+      left: 5%;
+      
+
+      &-span1 {
+        font-size: 1rem;
+      }
+
+      &-span2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+      }
+
+    }
+
+    &-image {
+      width: 100%;
+    }
+
+    &-p {
+      font-size: 0.9rem;
+      line-height: 1.3rem;
+      max-width: 80%;
+      padding: 1rem;
+
+    }
+
+  }
+
+  &-patisserie {
+
+    &-titles {
+
+      max-width: 80%;
+      padding: 1rem;
+      text-align: left;
+      line-height: 1.5rem;
+      right: 4%;
+      
+      &-span1 {
+        font-size: 1rem;
+      }
+
+      &-span2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+      }
+
+    }
+
+    &-image {
+      width: 100%;
+    }
+
+    &-p {
+      font-size: 0.9rem;
+      line-height: 1.3rem;
+      max-width: 80%;
+      padding: 1rem;
+    }
+
+  }
+
+}
+}
+
+/* width 700 --> 999*/
+@media screen and (min-width: 700px) and (max-width: 999px)  {
+
+  .products {
+  
+    &-cafe {
+  
+      &-titles {
+  
+        max-width: 85%;
+        padding: 1rem;
+        text-align: left;
+        line-height: 1.5rem;
+        top: 2%;
+        left: 5%;
+        
+  
+        &-span1 {
+          font-size: 1rem;
+        }
+  
+        &-span2 {
+          font-size: 2rem;
+          line-height: 2.2rem;
+        }
+  
+      }
+  
+      &-image {
+        width: 80%;
+      }
+  
+      &-p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        max-width: 80%;
+        padding: 1rem;
+  
+      }
+  
+    }
+  
+    &-patisserie {
+  
+      &-titles {
+  
+        max-width: 80%;
+        padding: 1rem;
+        text-align: left;
+        line-height: 1.5rem;
+        right: 4%;
+        
+        &-span1 {
+          font-size: 1rem;
+        }
+  
+        &-span2 {
+          font-size: 2rem;
+          line-height: 2.2rem;
+        }
+  
+      }
+  
+      &-image {
+        width: 80%;
+      }
+  
+      &-p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        max-width: 80%;
+        padding: 1rem;
+      }
+  
+    }
+  
+  }
+  }
+
+/* width 1000 --> 1399*/
+@media screen and (min-width: 1000px) and (max-width: 1399px)  {
+
+  .products {
+  
+    &-cafe {
+
+  
+      &-image {
+        width: 80%;
+      }
+
+  
+    }
+  
+    &-patisserie {
+  
+      &-image {
+        width: 80%;
+      }
+  
+    }
+  
+  }
+  }
