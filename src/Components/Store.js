@@ -28,11 +28,11 @@ let currentDay = newDay.getDay();
 
       {weekDay.map ((day) => {
         return (
-          <div className='store-horaires'>
-            <span className={weekDay.indexOf(day) === (currentDay-1) ? "store-horaires-day" : ""} key={day}>
+          <div className='store-horaires' key={day}>
+            <span className={weekDay.indexOf(day) === (currentDay-1) ? "store-horaires-day" : ""}>
               {day}  
             </span>
-            <span className={weekDay.indexOf(day) === (currentDay-1) ? "store-horaires-heure" : ""} >
+            <span className={weekDay.indexOf(day) === (currentDay-1) ? "store-horaires-heure" : ""}>
               {day === 'Samedi' || day === 'Dimanche' ? ' de 9h00 à 17h' : ' de 7h00 à 20h'}
             </span>
             
