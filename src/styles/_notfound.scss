@@ -61,3 +61,162 @@
   }
 
 }
+
+
+/**===========================================*/
+/**               Media Queries               */
+/**===========================================*/
+
+
+/* width 0 --> 699*/
+@media screen and (max-width: 699px) {
+
+  .notfound {
+    margin-top: 2rem;
+    
+    &-image {
+      width: 100%;
+    }
+  
+    &-text {
+      max-width: 80%;
+      line-height: 1rem;
+      margin-bottom: -1.5rem;
+      margin-top: 5rem;
+  
+      &-h2{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        
+        &-span1 {
+          font-size: 0.9rem;
+          font-weight: 800;
+          line-height: 1rem;
+        }
+  
+        &-span2 {
+          padding-bottom: 0.9rem;
+          font-size: 1.5rem;
+          font-weight: 100;
+          line-height: 1rem;
+        }
+      }
+      }
+
+      &-link {
+        max-width: 60%;
+        padding: 1rem;
+        margin-top: 1rem;
+        left: 20%;
+        top: 60%;
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem; 
+        line-height: 1.2rem; 
+      }
+  }
+
+}
+
+/* width 700 --> 999*/
+@media screen and (min-width: 700px) and (max-width: 999px) {
+
+  .notfound {
+    margin-top: 2rem;
+    
+    &-image {
+      width: 80%;
+    }
+  
+    &-text {
+      max-width: 80%;
+      line-height: 1rem;
+      margin-bottom: -2rem;
+      margin-top: 5rem;
+      position: relative;
+      top: -40%;
+  
+      &-h2{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        
+        &-span1 {
+          font-size: 0.9rem;
+          font-weight: 800;
+          line-height: 1rem;
+        }
+  
+        &-span2 {
+          padding-bottom: 0.9rem;
+          font-size: 1.5rem;
+          font-weight: 100;
+          line-height: 1rem;
+        }
+      }
+      }
+
+      &-link {
+        max-width: 60%;
+        padding: 1rem;
+        margin-top: 1rem;
+        left: 20%;
+        top: 60%;
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem; 
+        line-height: 1.2rem; 
+      }
+  }
+
+}
+
+/* width 1000 --> 1399*/
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+ 
+  .notfound {
+    margin-top: 2rem;
+    
+    &-image {
+      width: 60%;
+    }
+  
+    &-text {
+      max-width: 80%;
+      line-height: 1rem;
+      margin-bottom: -2rem;
+      margin-top: 5rem;
+      position: relative;
+      top: -40%;
+  
+      &-h2{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        
+        &-span1 {
+          font-size: 0.9rem;
+          font-weight: 800;
+          line-height: 1rem;
+        }
+  
+        &-span2 {
+          padding-bottom: 0.9rem;
+          font-size: 1.5rem;
+          font-weight: 100;
+          line-height: 1rem;
+        }
+      }
+      }
+
+      &-link {
+        max-width: 60%;
+        padding: 1rem;
+        margin-top: 1rem;
+        left: 20%;
+        top: 60%;
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem; 
+        line-height: 1.2rem; 
+      }
+  }
+}
