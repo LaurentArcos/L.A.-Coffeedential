@@ -125,7 +125,7 @@
                   }
 
                   &-span2 {
-                    padding-bottom: 1rem;
+                    padding-bottom: 0.5rem;
                     font-size: 1.5rem;
                     font-weight: 100;
                   }
@@ -133,7 +133,7 @@
             }
 
             &-p1 {
-              padding-top: 1rem;
+              padding-top: 0.5rem;
               font-size: 0.8rem;
               font-family: 'Lora';
               letter-spacing: 0.03rem;  
@@ -153,36 +153,197 @@
 
 }
 
+@media (min-width: 1000px) {
 
-@media (min-width: 1400px) {
+  .homepage { 
+  
+        &-top {
+  
+          position: relative;
+  
+              &-image {
+                position: relative;
+                left: 29%;
+                width: 60%;
+  
+              }
+  
+              &-text {
+                position: absolute;
+                right: 25%;
+                top: 12%;
+                width: 100%;
+  
+                    &-group {
+                      max-width: 40%;
+                      padding: 1rem 1rem 2rem 1rem;
+                      text-align: center;
+                      line-height: 1.3rem;
+                    }
+  
+                    &-h2 {
+                      display: flex;
+                      flex-direction: column;
+                      text-transform: uppercase;
+                      
+                          &-span1 {
+                            font-size: 1rem;
+                            font-weight: 800;
+                            
+                          }
+  
+                          &-span2 {
+                            padding-bottom: 1rem;
+                            font-size: 1.8rem;
+                            font-weight: 100;
+                            line-height: 2rem;
+                          }
+                    }
+  
+                    &-p {
+                      font-size: 1rem;
+                      font-family: 'Lora';
+                      letter-spacing: 0.03rem;  
+                    }
+  
+  
+                    &-link {
+                      background-color: vars.$colorYellow;
+                      color: vars.$colorWhite;
+                      border-radius: vars.$borderRadius;
+                      max-width: 50%;
+                      font-size: 0.8rem;
+                      padding: 1.5rem;
+                      font-weight: bold;  
+                      margin-top: 2rem;
+                      position: absolute;
+                      left: 42%;
+                      top: 81%;
+                      font-family: 'lora';
+                      letter-spacing: 0.02rem;        
+                    }
+  
+  
+              }
+  
+        }
+  
+  
+        &-bottom {
+  
+              &-inner {
+                max-width: 60%;
+                padding: 3rem;
+                margin: 0.5rem;
+              }
+
+  
+              &-h2 {
+                              
+                    &-span1 {
+                      padding-bottom: 0.5rem;
+                      font-size: 1.1rem;
+                    }
+  
+                    &-span2 {
+                      padding-bottom: 1rem;
+                      font-size: 2.6rem;
+                      font-weight: 100;
+                    }
+  
+              }
+  
+              &-p1 {
+                padding-top: 1rem;
+                font-size: 1rem;
+                line-height: 1.5rem;
+              }
+              &-p2 {
+                padding-top: 1rem;
+                font-size: 1rem;
+                line-height: 1.5rem;
+
+              }
+  
+        }
+  
+  }}
+
+
+  @media (min-width: 1400px) {
+
+    .homepage { 
+    
+          &-top {
+    
+
+    
+                &-image {
+
+                  left: 32%;
+                  width: 50%;
+    
+                }
+    
+                &-text {
+
+                  right: 30%;
+                  top: 15%;
+                  width: 80%;
+    
+                      &-group {
+                        padding: 1.5rem 1.5rem 3rem 1.5rem;
+                        text-align: center;
+                        line-height: 1.3rem;
+                      }
+    
+                      &-h2 {
+                        
+                            &-span1 {
+                              font-size: 1.2rem;
+                              font-weight: 800;
+                              
+                            }
+    
+                            &-span2 {
+                              padding-bottom: 1rem;
+                              font-size: 2rem;
+                              font-weight: 100;
+                              line-height: 2.5rem;
+                            }
+                      }
+                }
+          }   
+    }}
+
+
+
+@media (min-width: 1700px) {
 
 .homepage { 
 
-  margin-top: 3rem; 
-  font-family: 'Raleway';
-
       &-top {
+
+        position: relative;
 
             &-image {
               position: relative;
               left: 35%;
-              border-radius: vars.$borderRadius;
               width: 44%;
 
             }
 
             &-text {
-              color: black;
-              justify-content: center;
               position: absolute;
-              left: 20%;
-              top: 60%;
+              right: 25%;
+              top: 15%;
+              width: 80%;
 
                   &-group {
                     background-color: rgba(vars.$colorWhite, 0.85);
                     max-width: 33%;
                     border-radius: vars.$borderRadius;
-                    padding: 3rem 3rem 4rem 3rem;
+                    padding: 2.5rem 2.5rem 3.5rem 2.5rem;
                     text-align: center;
                     line-height: 1.5rem;
                   }
@@ -223,7 +384,7 @@
                     font-weight: bold;  
                     margin-top: 2rem;
                     position: absolute;
-                    left: 11.5%;
+                    left: 44%;
                     top: 81%;
                     font-family: 'lora';
                     letter-spacing: 0.02rem;        
@@ -238,7 +399,7 @@
       &-bottom {
         display: flex;
         justify-content: center;
-        margin-top: 7rem;
+        margin-top: 4rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
         background-color: rgba(vars.$colorYellow, 0.85);
